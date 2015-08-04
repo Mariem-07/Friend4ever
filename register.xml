@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:ems="10"
+        android:hint="Firstname" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:hint="Lastname"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:hint="Mail"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/mail"
+        android:layout_below="@+id/mail"
+        android:layout_marginTop="40dp"
+        android:text="Save" />
+
+</RelativeLayout>
